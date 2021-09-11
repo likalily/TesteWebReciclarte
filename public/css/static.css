@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+#menu{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(0, 63, 34, 1);
+    overflow: hidden;
+    position: fixed;
+    transition: 0.5s;
+}
+#menu .input-group{
+    width: 30vw;
+    height: fit-content;
+    float: right;
+    margin-right: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+#menu a{
+    float: right;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+#menu img{
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+#content{
+    width: 100%;
+}
